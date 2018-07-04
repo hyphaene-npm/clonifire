@@ -1,6 +1,6 @@
 {
     "name": "clonifire",
-    "version": "0.1.2",
+    "version": "1.0.0",
     "description": "this package is designed to clone git repositories following the path used to organize repos on Gitlab",
     "main": "src/index.js",
     "bin": {
