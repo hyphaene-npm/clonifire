@@ -1,0 +1,27 @@
+{
+  "name": "clonifire",
+  "version": "0.0.0",
+  "description": "this package is designed to clone git repositories following the path used to organize repos ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hyphaene/clonifire.git"
+  },
+  "keywords": [
+    "cli",
+    "folder",
+    "gitlab",
+    "git",
+    "clone",
+    "path"
+  ],
+  "author": "Maximilien Garenne <maximilien.garenne@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyphaene/clonifire/issues"
+  },
+  "homepage": "https://github.com/hyphaene/clonifire#readme"
+}
