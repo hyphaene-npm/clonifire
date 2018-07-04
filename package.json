@@ -1,7 +1,7 @@
 {
   "name": "clonifire",
   "version": "0.0.0",
-  "description": "this package is designed to clone git repositories following the path used to organize repos ",
+  "description": "this package is designed to clone git repositories following the path used to organize repos on Gitlab",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,5 +23,16 @@
   "bugs": {
     "url": "https://github.com/hyphaene/clonifire/issues"
   },
-  "homepage": "https://github.com/hyphaene/clonifire#readme"
+  "homepage": "https://github.com/hyphaene/clonifire#readme",
+  "devDependencies": {
+    "versionifier": "^1.3.4"
+  },
+  "versionifier": {
+    "commitIfOnlyPackageJsonInStage": true,
+    "commitIfMultipleFilesInStage": false,
+    "push": true,
+    "commitMessage": "Updated package.json to version @@",
+    "remoteRepo": "origin",
+    "publish": true
+  }
 }
