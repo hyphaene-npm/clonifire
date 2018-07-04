@@ -1,0 +1,19 @@
+{
+	"plugins": ["prettier"],
+	"extends": ["eslint:recommended"],
+	"parserOptions": {
+		"ecmaVersion": 2017,
+		"sourceType": "module"
+	},
+	"env": {
+		"node": true,
+		"es6": true
+	},
+	"rules": {
+		"indent": ["error", "tab"],
+		"comma-dangle": 0,
+		"no-console": 1,
+		"no-process-exit": 0,
+		"prefer-const": "error"
+	}
+}
